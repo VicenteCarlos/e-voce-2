@@ -41,7 +41,7 @@ const buttonVariants = {
 }
 
 const Base = ({ addBase, pizza }) => {
-  const bases = ['Classic', 'Thin & Crispy', 'Thick Crust'];
+
 
   return (
     <motion.div className="base container"

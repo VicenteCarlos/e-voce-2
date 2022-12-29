@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const containerVariants = {
@@ -22,14 +21,7 @@ const containerVariants = {
   },
 };
 
-const childVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-  }
-}
+
 
 const Order = ({ pizza, setShowModal }) => {
   // useEffect lifecycle hook, array with only setShowModal as dep 
